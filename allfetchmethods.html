@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="./styke.css">
+    <script src="./try.js"></script>
+</head>
+<h1 class="main_central_content_format">Submit Your Feedback</h1>
+<body id="body" onload=" getmethod();">
+    
+    <fieldset>
+            <Legend style="font-size:large;">Fill the Fields</Legend>
+
+            <form name="feedback_form" id="feedback_form" action="" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input id="name" style="font-size: medium;" type="text" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="contact">Phone No.</label>
+                        </td>
+                        <td>
+                            <input id="contact" style="font-size: medium;" type="tel" pattern="[0-9]{10}" required placeholder="90********">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="email">E-Mail</label>
+                        </td>
+                        <td>
+                            <input id="email" style="font-size: medium;" type="email" placeholder="youremail@gmail.com">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input id="password" style="font-size: medium;" type="password">
+                        </td>
+                    </tr>
+
+                </table>
+                <script src="./try.js"></script>
+                <div id="mytable">
+                    <table id="testtbl">
+
+                    </table>
+                </div>
+                
+                
+
+<br>
+                <button style="font-size: medium; margin-left: 25px;"  onclick="postmethod();">POST</button>
+                <button style="font-size: medium; margin-left: 15px;" onclick="putmethod();" >UPDATE</button>
+                <button style="font-size: medium; margin-left: 10px;"  onclick="getmethod();">GET</button>
+                <button style="font-size: medium; margin-left: 5px;" onclick="deletemethod();" >DELETE</button>
+              <button style="font-size: medium; margin-left: 5px" onclick="displayftch();">DISPLAY</button>
+              <!-- <a href="./displaytable.html" style="font-size:xx-large;"> Open Table</a> -->
+               
+            </form>
+    </fieldset> 
+
+</tabel>
+</body>
+</html>

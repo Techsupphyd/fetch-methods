@@ -1,0 +1,27 @@
+.main_central_content_format{
+    font-size: xx-large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table_cnt, .key_inp_for_name, .value_share, .key_inp_for_city{  /*table CSS layout*/
+    background-color: rgb(254, 254, 254);
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th{  /*table CSS layout*/
+    background-color: rgb(254, 254, 254);
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{ 
+    color: rgb(75, 70, 75);
+}
+
